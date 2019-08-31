@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html class="html">
+
+    <head>
+
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="full-stack; web developer; portfolio" content="about me; portfolio; contact">
+    </head>
+
+    <body class="wrapper">
+
+        <header class="containerStickyHeader">
+            <div>
+                <h1 id="logo">Victor Uland</h1>
+                <nav>
+                    <!--Navigation bar/menu. Places elements/links on one line without any bullet points.-->
+                    <a href="index.html">About Me</a>
+                    <a href="./portfolio.html">Portfolio</a>
+                    <a href="./contact.html">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+
+        <div>
+            <section class="main section">
+                <h1>Contact</h1>
+
+                <hr size=auto>
+
+                <form id="contact-form">
+                    <ul>
+                        <li>
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" placeholder="John Smith" required="required">
+                        </li>
+                        <li>
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+                        </li>
+                        <li>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required="required"></textarea>
+                        </li>
+                        <input type="submit" id="submit">
+                    </ul>
+                </form>
+
+
+            </section>
+
+            <section id="sidebar">
+                <div id="connect">
+                    <h2>Connect with Me</h2>
+
+                    <img src="./assets/images/Icons/github.png" alt="github">
+                    <img src="./assets/images/Icons/linkedIN.png" alt="linkedin">
+                    <img src="./assets/images/Icons/stackOverflow.png" alt="stack overflow">
+                </div>
+            </section>
+
+        </div>
+
+        <footer>
+            <div class="containerStickyFooter"></div>
+            &copy; Copyright 2019 Victor A. Uland
+        </footer>
+
+    </body>
+
+</html>
