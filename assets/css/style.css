@@ -1,0 +1,19 @@
+/* .html {
+} */
+/* div {
+    background: url(topography.png);
+} */
+.wrapper {
+  margin-right: auto; 
+  margin-left:  auto; 
+
+  max-width: 960px;
+
+  padding-right: 10px;
+  padding-left:  10px; 
+}
+
+.headshot {
+    height: 400px; /*change to em units once you make it block style */
+    width: 400px;
+}
