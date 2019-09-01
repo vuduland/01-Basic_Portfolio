@@ -2,17 +2,18 @@
 <html class="html">
 
     <head>
-
-        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Contact Me</title>
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         <meta name="full-stack; web developer; portfolio" content="about me; portfolio; contact">
     </head>
 
-    <body class="wrapper">
+    <body>
 
-        <header class="containerStickyHeader">
-            <div>
-                <h1 id="logo">Victor Uland</h1>
+        <header id="masthead">
+            <div class="container">
+                <a href="index.html" id="logo">Victor Uland</a>
                 <nav>
                     <!--Navigation bar/menu. Places elements/links on one line without any bullet points.-->
                     <a href="index.html">About Me</a>
@@ -23,11 +24,9 @@
         </header>
 
 
-        <div>
+        <div id="main-container" class="container">
             <section class="main section">
                 <h1>Contact</h1>
-
-                <hr size=auto>
 
                 <form id="contact-form">
                     <ul>
@@ -37,7 +36,8 @@
                         </li>
                         <li>
                             <label for="email">Email</label>
-                            <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+                            <input type="text" name="email" id="email" placeholder="example@gmail.com"
+                                required="required">
                         </li>
                         <li>
                             <label for="message">Message</label>
@@ -46,27 +46,24 @@
                         <input type="submit" id="submit">
                     </ul>
                 </form>
+                <section class="sidebar">
+                    <div id="connect">
+                        <h2>Connect with Me</h2>
+                        <img class="social" src="./assets/images/Icons/github.png" alt="Github">
+                        <img class="social" src="./assets/images/Icons/linkedIN.png" alt="LinkedIn">
+                        <img class="social" src="./assets/images/Icons/stackOverflow.png" alt="Stack Overflow">
+                    </div>
+                </section>
 
-
-            </section>
-
-            <section id="sidebar">
-                <div id="connect">
-                    <h2>Connect with Me</h2>
-
-                    <img src="./assets/images/Icons/github.png" alt="github">
-                    <img src="./assets/images/Icons/linkedIN.png" alt="linkedin">
-                    <img src="./assets/images/Icons/stackOverflow.png" alt="stack overflow">
-                </div>
             </section>
 
         </div>
 
         <footer>
-            <div class="containerStickyFooter"></div>
-            &copy; Copyright 2019 Victor A. Uland
+            <div class="container">
+                &copy; Copyright 2019 Victor A. Uland
+            </div>
         </footer>
-
     </body>
 
 </html>

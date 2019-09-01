@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html class="html">
+<html>
 
    <head>
-
-      <link rel="stylesheet" href="./assets/css/style.css">
+      <title>About Me</title>
+      <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+      <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
       <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-      <meta name="full-stack; web developer; portfolio" content="about me; portfolio; contact">
+      <meta name="full-stack; web developer; portfolio" content="bio; portfolio; contact information">
    </head>
 
-   <body class="wrapper">
-
-      <header class="containerStickyHeader">
-         <div>
-            <h1 id="logo">Victor Uland</h1>
+   <body>
+      <header id="masthead">
+         <div class="container">
+            <a href="index.html" id="logo">Victor Uland</a>
             <nav>
-               <!--Navigation bar/menu. Places elements/links on one line without any bullet points.-->
                <a href="index.html">About Me</a>
                <a href="./portfolio.html">Portfolio</a>
                <a href="./contact.html">Contact</a>
@@ -23,59 +22,34 @@
       </header>
 
 
-      <div>
-         <section class="main section">
-            <h2>About Me</h2>
-            <hr size=auto>
-            <img class="headshot" src="./assets/images/headshot.jpg" alt="Victor Uland">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo necessitatibus voluptate velit odio in
-               officiis,
-               atque ad? Illo atque non saepe laboriosam debitis eligendi harum quos maiores, reprehenderit, vitae
-               excepturi
-               perferendis inventore praesentium adipisci blanditiis autem ab magnam nobis provident velit? Similique
-               inventore mollitia itaque illum sed adipisci quisquam dolores aliquam asperiores accusamus nisi
-               reprehenderit
-               minus dicta expedita tempora autem, ea nostrum assumenda. Rerum quod quasi perspiciatis totam velit
-               voluptate
-               veniam odit officia qui cum. Eligendi corrupti deleniti, officiis accusamus voluptatibus vitae. Minus
-               hic,
-               veniam soluta aliquam dolore perspiciatis blanditiis at dignissimos earum sit nesciunt. Molestiae commodi
-               corporis doloremque at.
-            </p>
-            <br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam provident placeat obcaecati dolorum, vel
-               facilis
-               accusantium quos repellendus voluptate eligendi animi magni corrupti doloremque consectetur error
-               repellat
-               nobis ab dolores itaque harum deleniti labore aut. Vitae, incidunt id architecto ratione eveniet velit
-               recusandae atque. Dignissimos sequi minus consectetur deserunt vel, consequatur mollitia sapiente sed
-               iste?
-               Quisquam accusamus facilis voluptas assumenda quis vitae, consequuntur distinctio dignissimos sequi ullam
-               illum
-               mollitia iusto sed odio, placeat laborum rerum. Possimus ipsa obcaecati consequatur, quaerat sequi, quis
-               ipsam
-               a laudantium laboriosam quo doloribus placeat porro rem optio modi facilis adipisci sed eveniet,
-               reiciendis
-               culpa eum?
-            </p>
+      <div id="main-container" class="container">
+         <section class="main-section">
+            <h1>About Me</h1>
+
+            <img class="headshot" src="./assets/images/headshot.jpg" alt="Image of Author">
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
          </section>
 
-         <section id="contactAside">
-            <div>
+         <section class="sidebar">
+            <div id="connect">
                <h2>Connect with Me</h2>
 
-               <img src="./assets/images/Icons/github.png" alt="github">
-               <img src="./assets/images/Icons/linkedIN.png" alt="linkedin">
-               <img src="./assets/images/Icons/stackOverflow.png" alt="stack overflow">
+               <img class="social" src="./assets/images/Icons/github.png" alt="Github">
+               <img class="social" src="./assets/images/Icons/linkedIN.png" alt="LinkedIn">
+               <img class="social" src="./assets/images/Icons/stackOverflow.png" alt="Stack Overflow">
             </div>
          </section>
-
       </div>
 
       <footer>
-         <div class="containerStickyFooter"></div>
-         &copy; Copyright 2019 Victor A. Uland
+         <div class="container">
+            &copy; Copyright 2019 Victor A. Uland
+         </div>
       </footer>
+   </body>
 
-</body>
 </html>
