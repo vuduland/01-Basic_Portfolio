@@ -10,8 +10,10 @@ html, body {
 }
 
 .wrapper {
+  width: 100%;
   min-height: 100%;
-  position: static;
+  position: absolute;
+  /* static;*/
 }
 
 
@@ -125,51 +127,63 @@ nav a:first-child {
   margin-right: 25px;
 }
 
-.sidebar {
+.connect {
   background: #fff;
   padding: 30px;
   min-height: 135px;
   min-width: 270px;
   float: right;
-  position: fixed;
+  position: relative;
   border: 1px solid #ddd;
   margin-left: 40%;
   margin-top: 11.9%;
 }
 
 
-h3, .sidebar, h2 {
+h3, .connect, h2 {
   border-bottom: 2px solid #eee;
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
 }
-
-.social {
+/*
+.connect {
   width: 62px;
   height: 62px;
   margin-top: 8px;
   margin-right: 5px;
-}
+} */
 
-.social:last-child {
+.connect:last-child {
   margin-right: 0px;
 }
 
 
-/* .push {
-  height: 200px;
-  position: bottom;
-} */
-
 .footer {
-  height: 15%;
   color: #fff;
   padding: 30px 0;
-  /* clear: both; */
   border-top: 8px solid #4aaaa5;
   font-size: 12px;
   text-align: center;
-  position: sticky;
+  width: 100%;
+  position: fixed;
   bottom: 0;
+  background-color: #4aaaa5;
+  margin-bottom: 0;
 }
+
+/* .footer {
+width: 100%
+margin: 0 0 30px;
+z-index: 99;
+color: #fff;
+overflow: auto;
+border-bottom: 2px solid #ccc;
+border-bottom: 4px solid
+#4aaaa5;
+position: fixed;
+width: 100%;
+background-image: url("../images/curls.png");
+background-size: inherit;
+background-repeat: repeat
+} */
