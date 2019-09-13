@@ -141,7 +141,7 @@ nav a:first-child {
   max-width: 25%;
   min-height: 5%;
   max-height: 5%;
-  position: absolute;
+  position: fixed;
   top: 280px;
   left: 66.6%;
 }
